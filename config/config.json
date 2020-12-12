@@ -5,8 +5,7 @@
         "database": "ed4NiZ2kG6",
         "host": "remotemysql.com",
         "dialect": "mysql"
-        },
-        
+    },
     "test": {
         "dialect": "sqlite",
         "storage": "./database.sqlite3"
