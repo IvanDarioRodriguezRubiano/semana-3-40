@@ -10,7 +10,7 @@ exports.signin = async (req, res, next) => { //el ext es por si el programa se q
             if (passwordIsValid) {//si es password es valido creamos el token
                 const token = jwt.sign({
                     id: user.id,
-                    nombre: user.nombre,
+                    nombre: user.name,
                     rol: user.rol,
                     email: user.email
                 }, 'hola soy una cadena secreta', {
